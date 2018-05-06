@@ -34,8 +34,8 @@ class MetaLSTMCell(rnn_cell.RNNCell):
 
     def getMetaResults(self, hyper_output, input, dimensions, scope="meta"):
         """calculate the gates results of basic lstm with meta-lstm network"""    
-        with tf.variable_scope('z_trans'):
-            hyper_output = rnn_cell._linear(hyper_output, self._meta_num_units, False)
+        # with tf.variable_scope('z_trans'):
+        #     hyper_output = rnn_cell._linear(hyper_output, self._meta_num_units, False)
 
         with tf.variable_scope(scope):
             W_matrix_list = []
