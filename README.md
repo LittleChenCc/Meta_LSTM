@@ -1,4 +1,4 @@
-## This repository is the implementation of Meta-LSTM in "Meta Multi-Task Learning for Sequence Modeling." AAAI-18 https://arxiv.org/abs/1802.08969
+#### This repository is the implementation of Meta-LSTM in "Meta Multi-Task Learning for Sequence Modeling." AAAI-18 https://arxiv.org/abs/1802.08969
 
 #### Dependencies
 
@@ -17,4 +17,4 @@ outputs, _ = tf.nn.dynamic_rnn(lstm_cell, inputs, ph_seqLen,
 
 init a meta_cell with a shared scope, this work can be solved.  Pay attention to the  `reuse_variables()`
 
-## In addition the version implemented with PyTorch may be updated later.
+#### In addition the version implemented with PyTorch may be updated later.
