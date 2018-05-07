@@ -15,7 +15,7 @@ class MetaLSTMCell(rnn_cell.RNNCell):
         num_units: int, The number of units in the LSTM cell.
         metalstm_cell: lstm_cell, the cell used as meta networks.
         activation: Activation function of the inner states.
-        state_is_tuple: Ture
+        state_is_tuple: False
         """
         self._num_units = num_units
         self._activation = activation
